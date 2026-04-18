@@ -1,0 +1,25 @@
+--- Employee Performance Predictor Evaluation ---
+Accuracy: 0.7900
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         Low       0.82      0.83      0.83        66
+      Medium       0.67      0.74      0.71        66
+        High       0.90      0.79      0.84        68
+
+    accuracy                           0.79       200
+   macro avg       0.80      0.79      0.79       200
+weighted avg       0.80      0.79      0.79       200
+
+Feature Importances:
+Experience_Years           0.234579
+Training_Hours             0.228681
+Salary                     0.228679
+Age                        0.223682
+Education_Level_Masters    0.018713
+Education_Level_PhD        0.015927
+Department_Marketing       0.013747
+Department_HR              0.013036
+Department_Sales           0.011823
+Department_IT              0.011133
